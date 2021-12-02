@@ -1,0 +1,37 @@
+.footer{
+    color: $--color-white;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    &__container{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 11.8rem 19rem;
+    }
+    &__trafagar-car{
+        width: 40%;
+        
+    }
+    &__des{
+        margin-top: 2rem;
+        font-weight: 300;
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+    }
+    &__supp{
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 6rem;
+    }
+    &__title{
+        font-size: 20px;
+        line-height: 60px;
+        font-weight: 500;
+    }
+    &__link{
+        display: block;
+        color: $--color-white;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 38px;
+    }
+}

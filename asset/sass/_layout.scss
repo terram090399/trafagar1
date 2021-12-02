@@ -1,0 +1,60 @@
+.section{
+    padding: 8rem 0;
+}
+.section__title{
+    font-family: 'Outfit', sans-serif;
+    color: $--color-secon;
+    font-size: $--h2-font-size;
+    font-weight: $--font-semi-bold;
+    line-height: 5.6rem;
+    position: relative;
+    text-align: center;
+}
+.section__des{
+    margin: 5rem 0;
+    font-size: 1.8rem;
+    color: $--color-firs;
+    line-height: 3rem;
+    font-weight: 300;
+    text-align: center;
+}
+.section__title::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 6rem;
+    height: .2rem;
+    background-color: $--color-secon;
+    margin: 2.5rem 0;
+    transform: translateX(-50%);
+}
+.container-full{
+    max-width: 1209px;
+    width: 100%;
+    margin: 0 auto;
+}
+.container-small{
+    max-width: 1112px;
+    width: 100%;
+    margin: 0 auto;
+}
+.btn{
+    width: 20rem;
+    height: 5.6rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 5.5rem;
+    border-radius: 5.6rem;
+    border: 1px solid $--color-button;
+    background-color: $--color-white;
+    color: $--color-button;
+}
+// footer
+
+
+
+
+
+

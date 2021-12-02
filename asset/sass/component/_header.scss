@@ -1,0 +1,21 @@
+.header{
+   margin-top: 56px;
+   .header__nav{
+       display: flex;
+       justify-content: space-between;
+       .header__menu{
+           display: flex;
+           align-items: center;
+           .header__link{
+            margin-right: 2rem;
+            font-size: $--des-font-size;
+            color: $--color-firs;
+            font-weight: $--font-semi-bold;
+            transition: .3s ease;
+            &:hover{
+                color: $--color-secon;
+            }
+           }
+       }
+   }
+}

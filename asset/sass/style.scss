@@ -1,0 +1,37 @@
+// font-style
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+// file css
+@import './var';
+@import './layout';
+@import './component/header';
+@import './component/main.scss';
+@import './component/footer';
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    color: #7d7987;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+

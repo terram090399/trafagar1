@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap");
+.section {
+  padding: 8rem 0;
+}
+
+.section__title {
+  font-family: "Outfit", sans-serif;
+  color: #111;
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 5.6rem;
+  position: relative;
+  text-align: center;
+}
+
+.section__des {
+  margin: 5rem 0;
+  font-size: 1.8rem;
+  color: #7D7987;
+  line-height: 3rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.section__title::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 6rem;
+  height: 0.2rem;
+  background-color: #111;
+  margin: 2.5rem 0;
+  transform: translateX(-50%);
+}
+
+.container-full {
+  max-width: 1209px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-small {
+  max-width: 1112px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn {
+  width: 20rem;
+  height: 5.6rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 5.5rem;
+  border-radius: 5.6rem;
+  border: 1px solid #458FF6;
+  background-color: #fff;
+  color: #458FF6;
+}
+
+.header {
+  margin-top: 56px;
+}
+.header .header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header .header__nav .header__menu {
+  display: flex;
+  align-items: center;
+}
+.header .header__nav .header__menu .header__link {
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  color: #7D7987;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+.header .header__nav .header__menu .header__link:hover {
+  color: #111;
+}
+
+.home {
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+}
+.home__content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.home__card {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 0.5rem;
+}
+.home__title {
+  color: #111;
+  font-size: 4.8rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.home__des {
+  font-size: 2.1rem;
+  line-height: 3rem;
+  margin-top: 1rem;
+  margin-top: 2rem;
+}
+.home .btn__home {
+  background-color: #458FF6;
+  color: #fff;
+  margin: 2rem 0;
+}
+.home__img {
+  width: 60%;
+}
+
+.find__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+  row-gap: 3.5rem;
+  margin: 3rem 0;
+}
+.find__card {
+  width: auto;
+  height: 35rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3rem 1.5rem;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+}
+.find__img {
+  width: 8.5rem;
+  height: 9.5rem;
+}
+.find__title {
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 3rem;
+  margin: 3rem 0;
+  color: #111;
+}
+.find__des {
+  font-size: 1.8rem;
+}
+.find__btn {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.app__content {
+  width: 100%;
+  padding: 6rem 0;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+}
+.app__container {
+  display: flex;
+  margin: 5rem 0;
+}
+.app__container-two {
+  flex-direction: row-reverse;
+}
+.app__img {
+  width: 60%;
+}
+.app__card {
+  padding-left: 1.8rem;
+  width: 40%;
+  margin-bottom: 2rem;
+}
+.app__title {
+  text-align: left;
+}
+.app__title::after {
+  left: 0;
+  transform: translateX(0px);
+}
+.app__des {
+  padding-top: 1rem;
+  text-align: left;
+}
+.app__btn:hover {
+  color: white;
+  background-color: #458FF6;
+  cursor: pointer;
+}
+
+.silebar__title {
+  display: block;
+  color: #fff;
+  margin-bottom: 4rem;
+  position: relative;
+}
+.silebar__title::after {
+  background-color: #fff !important;
+}
+.silebar__container {
+  background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+  border-radius: 24px;
+  color: #fff;
+  height: 42.1rem;
+  padding: 7.5rem 11.7rem;
+}
+.silebar__content {
+  display: flex;
+  align-items: center;
+  column-gap: 110px;
+  font-size: 1.8rem;
+}
+.silebar__user {
+  display: flex;
+  align-items: center;
+}
+.silebar__img-user {
+  border-radius: 50%;
+  margin-right: 1.5rem;
+}
+
+.about__container {
+  width: 100%;
+}
+.about__list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10rem;
+}
+.about__card {
+  width: 35rem;
+  height: 51.2rem;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+}
+.about__img {
+  border-radius: 20px 20px 0 0;
+}
+.about__content {
+  margin-top: 0.8rem;
+  margin-bottom: 3.5rem;
+  height: 27.2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 3.3rem 5.1rem;
+}
+.about__subtitle {
+  color: #111;
+  font-size: 21px;
+  line-height: 3.2rem;
+  font-weight: 600;
+}
+.about__des {
+  margin: 2rem 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+}
+.about__link, .about__arrow {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  color: #458FF6;
+}
+.about__btn {
+  position: relative;
+  left: 50%;
+  margin-top: 2rem;
+  transform: translateX(-50%);
+}
+.about__btn:hover {
+  color: white;
+  background-color: #458FF6;
+  cursor: pointer;
+}
+
+.btn__home:hover {
+  color: #458FF6;
+  background-color: #fff;
+}
+
+.find__btn:hover {
+  color: white;
+  background-color: #458FF6;
+  cursor: pointer;
+}
+
+.footer {
+  color: #fff;
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+.footer__container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 11.8rem 19rem;
+}
+.footer__trafagar-car {
+  width: 40%;
+}
+.footer__des {
+  margin-top: 2rem;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+.footer__supp {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 6rem;
+}
+.footer__title {
+  font-size: 20px;
+  line-height: 60px;
+  font-weight: 500;
+}
+.footer__link {
+  display: block;
+  color: #fff;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  color: #7d7987;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
